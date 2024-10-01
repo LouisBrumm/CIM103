@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
+body{
+    background-color: darkgoldenrod;
+}
+
+nav{
+    background-color: cadetblue;
+    width: 320px;
+}
+
+nav a:hover{
+    text-decoration: none;
+}

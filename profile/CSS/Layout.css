@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    background-color: bisque;
+}
+
+header{
+    background-color: rgb(255,0,0);
+    background-image: url(https://as1.ftcdn.net/v2/jpg/00/16/81/88/1000_F_16818804_3zqaNN9Bg4Pojl8iiiRiDvP67P6OoYYi.jpg);
+    width: 960px; /* In general, 960px width will fit nicely on desktops/laptops*/
+    height: 200px;
+    padding: 20px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -8px;
+    margin-bottom: 50px;
+}
+
+main{
+    background-color: azure;
+    width: 970px;
+    height: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto; /*This means set top and bottom to 0 and left and right to auto*/
+    margin-bottom: 50px;
+}
+
+footer{
+    background-color: blueviolet;
+    width: 970px;
+    height: 100px;
+    padding: 20px 20px 20px 20px;  /* top, right, bottom, left*/
+    border-top-width: 10px;
+    border-top-color: violet;
+    border-top-style: dotted;
+    margin: 0 auto;
+}
+
+h1{
+    background-color: rgba(255,255,255,0.75);
+    font-family: "Arial",sans-serif;
+}
+
+h2{
+    color: goldenrod;
+    text-align: center;
+    font-family: fantasy;
+}
+
+p{
+    color: #ffffff;
+    line-height: 30px;
+    font-family: cursive;
+}
+
+
+li{
+    font-weight: bold;
+}
+
+ul{
+    background-color: peru;
+}
+
+ul li{
+    color: green;
+    list-style: none;
+}
+
+ol li{
+    font-weight: lighter;
+    list-style: upper-roman;
+}
+
+.purple{
+    color: plum;
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+    color: palevioletred;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+nav{
+    background-color: rgba(0,0,0,0.75);
+    width: 320px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+nav a{
+    font-size: 20px;
+    color: chartreuse;
+    margin-right: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.leftNav{
+    margin-left: 30px;
+}
+
+.centerImage{
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.imageGallery{
+    width: 300px;
+    border-style: solid;
+    border-color: white;
+    border-width: 10px 10px 50px 10px;
+}
