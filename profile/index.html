@@ -10,10 +10,10 @@
     <body>
         <header>
             <nav>
-                <a href="">Link 1</a>
-                <a href="">Link 2</a>
+                <a href="#orderedList">Link 1</a>
+                <a href="#imageGallery">Link 2</a>
             </nav>
-            <h1>About Louis</h1>
+            <h1 class="title"> About Louis</h1>
             <p>Louis is a senior at the University of Miami, majoring in Musicianship, Artist Development, and Entrepreneurship with a minor in Music Industry within the Frost School of Music. His principle instrument is contemporary voice, while his secondary instrument is guitar.</p>
             <!-- This is a note because I forgot to include a note in my previous HTML Profile submission :') -->
         </header>
@@ -23,11 +23,11 @@
             </p>
             
             <h2>
-                <i>Pinellas County Center for the Arts</i>
+                <b>Pinellas County Center for the Arts</b>
             </h2>
             <p>Louis attended high school at the Pinellas County Center for the Arts, where he discovered his passion for singing. This experience led him on his path to pursuing his post-secondary education in music at the Frost School of Music at the University of Miami.</p>
             
-            <h3>Louis' Favorite Genres of Music</h3>
+            <h3 id="orderedList">Louis' Favorite Genres of Music</h3>
             <ol>
                 <li>
                     <strong>Funk</strong>
@@ -40,17 +40,19 @@
                 <u>Louis' Musical Influences</u>
             </h3>
             <ul>
-                <li>
+                <li class="unorderedList">
                     <strong>Stevie Wonder</strong>
                 </li>
-                <li>James Brown</li>
-                <li>Yebba</li>
+                <li class="unorderedList"> James Brown</li>
+                <li class="unorderedList"> Yebba</li>
             </ul>
             
-            <h3>Louis In Action</h3>
-            <img src="DSC01392.heic" alt="Louis performing with his band, Puddley">
-            <img src="Asset1@300x-100.jpg" alt="Louis performing with his band, Puddley">
-            <img src="Asset2@300x-100.jpg" alt="Louis performing with his band, Puddley">
+            <h3 id="imageGallery">Louis In Action</h3>
+            <section>
+                <img class="imageGallery" src="DSC01392.jpg" alt="Louis performing with his band, Puddley">
+            <img class="imageGallery" src="Asset1@300x-100.jpg" alt="Louis performing with his band, Puddley">
+            <img class="imageGallery" src="Asset2@300x-100.jpg" alt="Louis performing with his band, Puddley">
+            </section>
         </main>
         <footer>
             <p>These Images are owned by Louis Brumm. They were taken during live performances of him performing with his band, Puddley.</p>
